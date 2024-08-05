@@ -1,5 +1,4 @@
 const prompt = require("prompt-sync")();
-
 const { modelo, atualizar, remover, ler  } = require("./main.js");
 
 while (true) {
@@ -25,7 +24,7 @@ while (true) {
       process.exit();
       break;
     default:
-      console.log("Opção inválida");
+      console.log("Opção inválida");
       break;
   }
 }
